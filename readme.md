@@ -105,15 +105,15 @@ cruise-ship-analysis/
 #### 1. Begin with the notebooks: 
 Run them in the numbered order (01 to 05) to follow the analysis workflow:
 
-◦ *01_data_exploration.ipynb*: Understand the dataset structure and quality.
+◦ *01_data_exploration.ipynb* : Understand the dataset structure and quality.
 
-◦ *02_data_cleaning.ipynb*: Prepare the data for analysis.
+◦ *02_data_cleaning.ipynb* : Prepare the data for analysis.
 
-◦ *03_vessel_comparison.ipynb*: Compare performance between the two vessels.
+◦ *03_vessel_comparison.ipynb* : Compare performance between the two vessels.
 
-◦ *04_efficiency_analysis.ipynb*: Dive into efficiency metrics.
+◦ *04_efficiency_analysis.ipynb* : Dive into efficiency metrics.
 
-◦ *05_kpi_dashboard.ipynb*: Visualize results and KPIs.
+◦ *05_kpi_dashboard.ipynb* : Visualize results and KPIs.
 
 #### 2. Explore the source code: 
 The src/ directory contains reusable modules imported by the notebooks, including:
