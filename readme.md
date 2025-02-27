@@ -19,15 +19,12 @@ A standard modern laptop with a 4-core CPU and 16 GB RAM.
 
 ### Dependencies
 The project relies on the following Python packages:
-
+```
 ◦ pandas>=1.5.0
-
 ◦ numpy>=1.23.0
-
 ◦ matplotlib>=3.5.0
-
 ◦ seaborn>=0.11.0
-
+```
 Install these dependencies using the provided requirements.txt file:
 
 ```bash
