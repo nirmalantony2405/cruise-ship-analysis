@@ -1,0 +1,49 @@
+Dataset Info:
+None
+
+Missing Values:
+Start Time                                  0
+End Time                                    0
+Vessel Name                                 0
+Power Galley 1 (MW)                        16
+Power Galley 2 (MW)                        16
+Power Service (MW)                         18
+HVAC Chiller 1 Power (MW)                 207
+HVAC Chiller 2 Power (MW)                 207
+HVAC Chiller 3 Power (MW)                 207
+Scrubber Power (MW)                        16
+Sea Temperature (Celsius)                  16
+Boiler 1 Fuel Flow Rate (L/h)              16
+Boiler 2 Fuel Flow Rate (L/h)              16
+Incinerator 1 Fuel Flow Rate (L/h)         16
+Diesel Generator 1 Power (MW)              16
+Diesel Generator 2 Power (MW)              16
+Diesel Generator 3 Power (MW)              16
+Diesel Generator 4 Power (MW)              16
+Latitude (Degrees)                        340
+Longitude (Degrees)                       340
+Relative Wind Angle (Degrees)              14
+True Wind Angle (Degrees)                  74
+Depth (m)                               57494
+Relative Wind Direction (Degrees)          55
+True Wind Direction (Degrees)              74
+Draft (m)                                1143
+Speed Over Ground (knots)                 900
+True Wind Speed (knots)                    74
+Relative Wind Speed (knots)                14
+Speed Through Water (knots)               941
+Local Time (h)                            340
+Trim (m)                                 1079
+Propulsion Power (MW)                      16
+Port Side Propulsion Power (MW)            16
+Starboard Side Propulsion Power (MW)       16
+Bow Thruster 1 Power (MW)                  16
+Bow Thruster 2 Power (MW)                  16
+Bow Thruster 3 Power (MW)                  16
+Stern Thruster 1 Power (MW)                16
+Stern Thruster 2 Power (MW)                16
+Main Engine 1 Fuel Flow Rate (kg/h)        16
+Main Engine 2 Fuel Flow Rate (kg/h)        16
+Main Engine 3 Fuel Flow Rate (kg/h)        16
+Main Engine 4 Fuel Flow Rate (kg/h)        16
+dtype: int64

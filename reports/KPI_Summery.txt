@@ -1,0 +1,4 @@
+KPI Summary by Vessel:
+Vessel Name  BSFC (g/kWh) mean  BSFC (g/kWh) std  Fuel per NM (kg/nm) mean  Fuel per NM (kg/nm) std  Total Electrical Power Consumption (MW) mean  Total Electrical Power Consumption (MW) std
+   Vessel 1             347.32            130.48                    219.96                    63.18                                          6.02                                         1.40
+   Vessel 2             398.26            172.53                    231.96                    71.81                                          6.01                                         1.59
