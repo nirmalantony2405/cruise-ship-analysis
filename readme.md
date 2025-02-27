@@ -1,4 +1,4 @@
-### Cruise Ship Performance Analysis 
+# Cruise Ship Performance Analysis 
 
 ## Overview 
 
@@ -10,14 +10,14 @@ The project is implemented using Python, with Jupyter notebooks guiding the anal
 
 To run the code in this repository, ensure you have the following prerequisites:
 
-# Hardware: 
+### Hardware: 
 A standard modern laptop with a 4-core CPU and 16 GB RAM.
-# Software:
+### Software:
     ◦ Python 3.8 or higher
     ◦ Jupyter Notebook or JupyterLab
     ◦ Git (for cloning the repository)
 
-# Dependencies
+### Dependencies
 The project relies on the following Python packages:
 
 ◦ pandas>=1.5.0
@@ -31,24 +31,28 @@ Install these dependencies using the provided requirements.txt file:
 pip install -r requirements.txt
 ```
 
-# Running the Code
+## Running the Code
 Clone the repository:
 ```bash
 git clone https://github.com/your-username/cruise-ship-analysis.git
 cd cruise-ship-analysis
 ```
 
-# Navigate to the notebooks/ directory and run the Jupyter notebooks in this order:
+## Navigate to the notebooks/ directory and run the Jupyter notebooks in this order:
 ◦ data_exploration.ipynb: Initial exploration and quality assessment of  the dataset.
+
 ◦ data_cleaning.ipynb: Data preprocessing and cleaning.
+
 ◦ vessel_comparison.ipynb: Comparison of Vessel 1 and Vessel 2 performance metrics.
+
 ◦ efficiency_analysis.ipynb: Analysis of efficiency metrics like fuel consumption and power usage.
+
 ◦ kpi_dashboard.ipynb: Visualization of KPIs in a dashboard format.
-# View results: 
+### View results: 
 After running the notebooks, check the reports/ directory for generated figures and the final report.
 Each notebook includes detailed explanations and can be run independently, provided the data files are in the data/raw/ directory.
 
-# Repository Structure
+## Repository Structure
 The repository is organized as follows:
 
 ```
@@ -94,7 +98,7 @@ cruise-ship-analysis/
 ◦ reports/: Outputs including figures and a final report.
 
 ## How to Navigate the Repository
-# 1. Begin with the notebooks: 
+### 1. Begin with the notebooks: 
 Run them in the numbered order (01 to 05) to follow the analysis workflow:
 ◦ 01_data_exploration.ipynb: Understand the dataset structure and quality.
 ◦ 02_data_cleaning.ipynb: Prepare the data for analysis.
@@ -102,14 +106,14 @@ Run them in the numbered order (01 to 05) to follow the analysis workflow:
 ◦ 04_efficiency_analysis.ipynb: Dive into efficiency metrics.
 ◦ 05_kpi_dashboard.ipynb: Visualize results and KPIs.
 
-# 2. Explore the source code: 
+### 2. Explore the source code: 
 The src/ directory contains reusable modules imported by the notebooks, including:
 ◦ Data loading and cleaning (src/data/).
 ◦ Feature engineering (src/features/).
 ◦ Analysis functions (src/analysis/).
 ◦ Plotting utilities (src/visualization/).
 
-# 3. Review outputs:
+### 3. Review outputs:
 Check reports/figures/ for visualizations and reports/final_report.md for the analysis summary.
 
 ## Programming Languages and Tools 
