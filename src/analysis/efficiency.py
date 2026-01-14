@@ -13,7 +13,6 @@ def calculate_bsfc(df):
 
     bsfc[valid_mask] = fuel_flow_g[valid_mask] / power_kw[valid_mask]
     
-    # Filter out unrealistic values
     bsfc[bsfc > 1000] = np.nan
     
     return bsfc
@@ -26,8 +25,7 @@ def calculate_fuel_per_nm(df):
     fuel_per_nm = pd.Series(np.nan, index=df.index)
     
     fuel_per_nm[valid_mask] = df['Fuel Consumed (kg)'][valid_mask] / df['Distance (nm)'][valid_mask]
-    
-    # Filter out unrealistic values 
+
     fuel_per_nm[fuel_per_nm > 1000] = np.nan
     
     return fuel_per_nm
